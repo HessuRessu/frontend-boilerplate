@@ -1,22 +1,22 @@
-# ⚛️ React Frontend Boilerplate
+# 🚀 Frontend Boilerplate
+
+Modern React + TypeScript + Vite + TailwindCSS boilerplate with testing, linting, Docker, and observability features.  
+Designed to provide a fast start for scalable frontend applications.
 
 ---
 
-## 📝 Overview
-Modern React + TypeScript frontend boilerplate with Vite, TailwindCSS, and testing infrastructure. Designed to integrate seamlessly with a TSOA backend.
-
----
 
 ## ✨ Features
-- ⚛️ React + TypeScript  
-- 🚀 Vite dev server and build  
-- 🎨 TailwindCSS styling  
-- 🛠 ESLint + Prettier  
-- 🧪 Vitest + React Testing Library  
-- 🌐 API client generation from backend Swagger/OpenAPI  
-- 🐳 Docker & Docker Compose support  
-- 📦 Nginx production setup  
-- ⚡ CI/CD friendly
+
+- ⚛️ **React 19 + TypeScript 5**
+- ⚡ **Vite 7** for ultra-fast bundling and HMR
+- 🎨 **TailwindCSS 4** + PostCSS for styling
+- 🧪 **Vitest** + Testing Library for unit/integration tests
+- 🔍 **ESLint + Prettier** for clean, consistent code
+- 🐳 **Docker** setup with Nginx serving production builds
+- 📦 **Swagger API client generation**
+- 📊 **Prometheus metrics exporter for Nginx**
+- 🔒 **Dependabot** for automatic dependency updates
 
 ---
 
@@ -105,6 +105,15 @@ src/
 - **Build & Test**: linting, build, tests
 - **Coverage reporting**: TODO
 - **Deployment**: Docker-based deployment
+
+---
+
+## 📊 Monitoring & Metrics
+
+This boilerplate includes **Nginx Prometheus Exporter** for observability:
+
+- Exposes Nginx metrics at `http://localhost:9113/metrics`
+- Useful for scraping by Prometheus and visualizing in Grafana
 
 ---
 
