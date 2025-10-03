@@ -3,8 +3,11 @@
 Modern React + TypeScript + Vite + TailwindCSS boilerplate with testing, linting, Docker, and observability features.  
 Designed to provide a fast start for scalable frontend applications.
 
----
+  ![Build Status](https://github.com/HessuRessu/frontend-boilerplate/actions/workflows/build-test.yml/badge.svg)
+  ![SAST Scan](https://github.com/HessuRessu/frontend-boilerplate/actions/workflows/sast-scan.yml/badge.svg)
+  ![Docker publish](https://github.com/HessuRessu/frontend-boilerplate/actions/workflows/docker-publish.yml/badge.svg)
 
+---
 
 ## ✨ Features
 
