@@ -11,5 +11,5 @@ RUN npm run build
 FROM docker.io/nginx:alpine
 COPY --from=builder /usr/app/dist /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 8080
+EXPOSE 8081
 CMD ["nginx", "-g", "daemon off;"]

@@ -60,7 +60,7 @@ npm run generate:api-url
 Configure environment variables in `.env`:
 
 ```
-VITE_API_BASE_URL=http://localhost:3000/api
+VITE_API_BASE_URL=http://localhost:8080/api/v1
 ```
 
 ---
@@ -97,7 +97,7 @@ src/
 - Multi-stage Docker build:
   - Stage 1: build with devDependencies installed
   - Stage 2: production image serves `dist` via Nginx
-- Nginx listens on port 80
+- Nginx listens on port 8081
 
 ---
 
